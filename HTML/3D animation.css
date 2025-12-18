@@ -1,0 +1,36 @@
+.contaner {
+   perspective: 600px;
+   margin: 50px;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   gap: 30px;
+}
+
+.box3d {
+    width: 120px ;
+    height: 120px;
+    background-color: tomato;
+    color: aquamarine;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    transition: transform 0.6s ease;
+
+}
+
+.rotateX:hover {
+    transform: rotateX(360deg);
+}
+
+.rotateY:hover {
+     transform: rotateY(360deg);
+}
+
+.rotateZ:hover {
+    transform: rotate(360deg);
+}
+
+.rotatelateZ:hover {
+    transform: translate(100px);
+}
