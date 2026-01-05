@@ -1,0 +1,29 @@
+:root  {
+
+    --width_1: 300px;
+    --height_1: 250px;
+
+
+    --width_2: 150px;
+    --height_2: 50px;
+
+        --primary_color: #000(0,0,0.1);
+}
+
+.container{
+
+    width: 100%;
+    height: 90vh;
+
+
+}
+
+h1{
+
+    border: 2px solid  grey;
+    padding: 20px;
+    margin: 20px;
+
+    with:abo(cale(var(--width_2) - var(--width_1)*
+    var(--height_2)));
+}
