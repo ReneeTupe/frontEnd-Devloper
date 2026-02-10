@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Width Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    .container {
+      width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea,
+    button,
+    input[type="range"] {
+      width: 100%;
+      max-width: 300px;
+      padding: 6px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      height: 80px;
+      resize: both;
+    }
+
+    button {
+      background: #eaeaea;
+      border: 1px solid #aaa;
+      cursor: pointer;
+    }
+
+    .inline {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LEFT COLUMN -->
+  <div>
+    <label>Radio Button</label>
+    <div class="inline">
+      <input type="radio" name="r1">
+    </div>
+
+    <label>Checkbox</label>
+    <div class="inline">
+      <input type="checkbox">
+    </div>
+
+    <label>Range Slider</label>
+    <input type="range">
+
+    <label>Text Input</label>
+    <input type="text" placeholder="How wide am I?">
+
+    <label>Date Input</label>
+    <input type="date">
+
+    <label>Select Box</label>
+    <select>
+      <option>How wide am I?</option>
+      <option>Option 2</option>
+    </select>
+
+    <label>Textarea</label>
+    <textarea>How wide am I?</textarea>
+
+    <label>Button</label>
+    <button>How wide am I?</button>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div>
+    <label>Radio Button</label>
+    <div class="inline">
+      <input type="radio" name="r2">
+    </div>
+
+    <label>Checkbox</label>
+    <div class="inline">
+      <input type="checkbox">
+    </div>
+
+    <label>Range Slider</label>
+    <input type="range">
+
+    <label>Text Input</label>
+    <input type="text" placeholder="How wide am I?">
+
+    <label>Date Input</label>
+    <input type="date">
+
+    <label>Select Box</label>
+    <select>
+      <option>How wide am I?</option>
+      <option>Option 2</option>
+    </select>
+
+    <label>Textarea</label>
+    <textarea>How wide am I?</textarea>
+
+    <label>Button</label>
+    <button>How wide am I?</button>
+  </div>
+
+</div>
+
+</body>
+</html>
